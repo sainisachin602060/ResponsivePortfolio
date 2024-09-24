@@ -1,43 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-		<title>Portfolio Web</title>
-		<script src="https://cdn.tailwindcss.com"></script>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	</head>
-	<body>
-		<!-- Navbar goes here -->
-		<nav class="bg-white ">
-			<div class="max-w-6xl mx-auto px-4">
-				<div class="flex justify-between">
-					<div class="flex space-x-7">
-						<div>
-							<!-- Website Logo -->
-							<a href="#" class="flex items-center py-4 px-2">
-								<i class="fa fa-code font-bold text-2xl"></i>
-				           </a>
-						</div>
-						<!-- Primary Navbar items -->
-				
-						<div class="hidden md:flex items-center space-x-1 ">
-						
-							<a href="" class="py-4 px-2 mr-4 text-green-500 border-b-4 border-green-500 font-semibold ">Home</a>
-							<a href="#skill" class="py-4 px-2 mr-4 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Skill</a>
-							<a href="#project" class="py-4 px-2 mr-4 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Project</a>
-							<a href="#about-us" class="py-4 px-2 mr-4 text-gray-500 font-semibold hover:text-green-500 transition duration-300">About</a>
-							<a href="#contact" class="py-4 px-2 mr-4 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Contact</a>
-					
-						</div>
-					</div>
-					
-					<!-- Secondary Navbar items -->
-					
-					<!-- Mobile menu button -->
-					<div class="md:hidden flex items-center">
-						<button class="outline-none mobile-menu-button">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Web</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- Navbar goes here -->
+    <nav class="bg-white ">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between">
+                <div class="flex space-x-7">
+                    <div>
+                        <!-- Website Logo -->
+                        <a href="#" class="flex items-center py-4 px-2">
+                            <i class="fa fa-code font-bold text-2xl"></i>
+                        </a>
+                    </div>
+                    <!-- Primary Navbar items -->
+
+                    <div class="hidden md:flex items-center space-x-1 ">
+
+                        <a href="" class="py-4 px-2 mr-4 text-green-500 border-b-4 border-green-500 font-semibold ">Home</a>
+                        <a href="#skill" class="py-4 px-2 mr-4 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Skill</a>
+                        <a href="#project" class="py-4 px-2 mr-4 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Project</a>
+                        <a href="#about-us" class="py-4 px-2 mr-4 text-gray-500 font-semibold hover:text-green-500 transition duration-300">About</a>
+                        <a href="#contact" class="py-4 px-2 mr-4 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Contact</a>
+
+                    </div>
+                </div>
+
+                <!-- Secondary Navbar items -->
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center">
+                    <button class="outline-none mobile-menu-button">
 						<svg class=" w-6 h-6 text-gray-500 hover:text-green-500 "
 							x-show="!showMenu"
 							fill="none"
@@ -50,184 +52,185 @@
 							<path d="M4 6h16M4 12h16M4 18h16"></path>
 						</svg>
 					</button>
-					</div>
-				</div>
-			</div>
-			<!-- mobile menu -->
-			<div class="hidden mobile-menu">
-				<ul class="">
-					<li class="active"><a href="index.html" class="block text-sm px-2 py-4 text-white bg-green-500 font-semibold">Home</a></li>
-					<li><a href="#skill" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">skill</a></li>
-					<li><a href="#project" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">project</a></li>
-					<li><a href="#about-us" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">About</a></li>
-					<li><a href="#contact" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Contact Us</a></li>
-				</ul>
-			</div>
-			<!--------add jaavscript------>
-			<script>
-				const btn = document.querySelector("button.mobile-menu-button");
-				const menu = document.querySelector(".mobile-menu");
+                </div>
+            </div>
+        </div>
+        <!-- mobile menu -->
+        <div class="hidden mobile-menu">
+            <ul class="">
+                <li class="active"><a href="index.html" class="block text-sm px-2 py-4 text-white bg-green-500 font-semibold">Home</a></li>
+                <li><a href="#skill" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">skill</a></li>
+                <li><a href="#project" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">project</a></li>
+                <li><a href="#about-us" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">About</a></li>
+                <li><a href="#contact" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Contact Us</a></li>
+            </ul>
+        </div>
+        <!--------add jaavscript------>
+        <script>
+            const btn = document.querySelector("button.mobile-menu-button");
+            const menu = document.querySelector(".mobile-menu");
 
-				btn.addEventListener("click", () => {
-					menu.classList.toggle("hidden");
-				});
-			</script>
-		</nav>
+            btn.addEventListener("click", () => {
+                menu.classList.toggle("hidden");
+            });
+        </script>
+    </nav>
 
-<!----------hero section------>
-		<section class="text-gray-600 body-font">
-			<div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-			  <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-				<h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Web Developer
-				</h1>
-		
-				<p class="mb-8 leading-relaxed font-medium">HI, I am Sachin passionate about coding problem solving and learn new technology currently Pursue MCA. I mostly loved to Django and it is high level Web Framework of python.it esay for use and we create dyanmic web application.</p>
-				<div class="flex justify-center">
-				  <button class="inline-flex text-white bg-indigo-800 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"><a href="Sachin's Resume.pdf">Download Resume</a></button>
-	
-				</div>
-			  </div>
-			  <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-				<img class="object-cover object-center rounded" alt="hero" src="myimage.jpg">
-			  </div>
-			</div>
-		  </section>
-	
-           <!--my skill section-->
+    <!----------hero section------>
+    <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+            <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Web Developer
+                </h1>
 
-        <section class="text-gray-600 body-font bg-black " id="skill">
-			<div class="container px-5 py-24 mx-auto">
-			  <div class="flex flex-col text-center w-full mb-12">
-				<h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white ">MY DEVELOPMENT SKILLS</h1>
-		       </div>
-			  <div class="flex lg:w-2/3 w-full sm:flex-row flex-col mx-auto px-8 sm:space-x-4 sm:space-y-0 space-y-4 sm:px-0 items-end">
-				<div class="relative flex-grow w-full" >
-		        <input type="text" disabled id="full-name" value="HTML" name="full-name" class="w-44 bg-gray-100 bg-opacity-50 rounded border border-gray-300 font-bold focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-900 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out bg-black">
-				</div>
-				<div class="relative flex-grow w-full">
-				<input type="email" disabled id="email" value="CSS" name="email" class="w-44 bg-gray-100 bg-opacity-50 rounded border border-gray-300  font-bold  focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-900 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out bg-black">
-				</div>
-				<div class="relative flex-grow w-full">
-				<input type="email" disabled id="email" value="JAVASCRIPT" name="email" class="w-44 bg-gray-100 bg-opacity-50 rounded border border-gray-300  font-bold  focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-900 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out bg-black">
-				</div>
-				
-			  </div>
-			  <div class="flex lg:w-2/3 w-full sm:flex-row flex-col mx-auto px-8 sm:space-x-4 sm:space-y-0 space-y-4 sm:px-0 items-end mt-4">
-				<div class="relative flex-grow w-full">
-		        <input type="text" disabled id="full-name" value="TAILWIND CSS" name="full-name" class="w-44 bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200  font-bold text-base outline-none text-gray-900 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out bg-black">
-				</div>
-				<div class="relative flex-grow w-full">
-				<input type="email" disabled id="email" value="C" name="email" class="w-44 bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none font-bold text-gray-900 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out bg-black">
-				</div>
-				<div class="relative flex-grow w-full">
-				<input type="email" disabled id="email"  value="C++" name="email" class="w-44 bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none font-bold text-gray-900 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out bg-black">
-				</div>
-				
-			  </div>
-			  <div class="flex lg:w-2/3 w-full sm:flex-row flex-col mx-auto px-8 sm:space-x-4 sm:space-y-0 space-y-4 sm:px-0 items-end mt-4">
-				<div class="relative flex-grow w-full">
-		        <input type="text" disabled id="full-name"  value="PYTHON" name="full-name" class="w-44 bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base font-bold outline-none text-gray-900 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out bg-black">
-				</div>
-				<div class="relative flex-grow w-full">
-				<input type="email" disabled id="email"  value="DJANGO" name="email" class="w-44 bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none  font-bold text-gray-900 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out bg-black">
-				</div>
-				<div class="relative flex-grow w-full">
-				<input type="email" disabled id="email"   value="GIT & GITHUB" name="email" class="w-44 bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none font-bold text-gray-900 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out bg-black">
-				</div>
-				
-			  </div>
-			</div>
-		  </section>
+                <p class="mb-8 leading-relaxed font-medium">HI, I am Sachin passionate about coding problem solving and learn new technology currently Pursue MCA. I mostly loved to Django and it is high level Web Framework of python.it esay for use and we create dyanmic web application.</p>
+                <div class="flex justify-center">
+                    <button class="inline-flex text-white bg-indigo-800 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"><a href="Sachin's Resume.pdf">Download Resume</a></button>
 
+                </div>
+            </div>
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                <img class="object-cover object-center rounded" alt="hero" src="myimage.jpg">
+            </div>
+        </div>
+    </section>
 
+    <!--my skill section-->
 
-<!------project section ------>
+    <section class="text-gray-600 body-font bg-black " id="skill">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-col text-center w-full mb-12">
+                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white ">MY DEVELOPMENT SKILLS</h1>
+            </div>
+            <div class="flex lg:w-2/3 w-full sm:flex-row flex-col mx-auto px-8 sm:space-x-4 sm:space-y-0 space-y-4 sm:px-0 items-end">
+                <div class="relative flex-grow w-full">
+                    <input type="text" disabled id="full-name" value="HTML" name="full-name" class="w-44 bg-gray-100 bg-opacity-50 rounded border border-gray-300 font-bold focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-900 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out bg-black">
+                </div>
+                <div class="relative flex-grow w-full">
+                    <input type="email" disabled id="email" value="CSS" name="email" class="w-44 bg-gray-100 bg-opacity-50 rounded border border-gray-300  font-bold  focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-900 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out bg-black">
+                </div>
+                <div class="relative flex-grow w-full">
+                    <input type="email" disabled id="email" value="JAVASCRIPT" name="email" class="w-44 bg-gray-100 bg-opacity-50 rounded border border-gray-300  font-bold  focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-900 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out bg-black">
+                </div>
 
-  <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-600 text-center mt-16 font-bold" id="project">MY PROJECTS</h1>
-		  <section class="text-gray-600 body-font">
+            </div>
+            <div class="flex lg:w-2/3 w-full sm:flex-row flex-col mx-auto px-8 sm:space-x-4 sm:space-y-0 space-y-4 sm:px-0 items-end mt-4">
+                <div class="relative flex-grow w-full">
+                    <input type="text" disabled id="full-name" value="TAILWIND CSS" name="full-name" class="w-44 bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200  font-bold text-base outline-none text-gray-900 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out bg-black">
+                </div>
+                <div class="relative flex-grow w-full">
+                    <input type="email" disabled id="email" value="C" name="email" class="w-44 bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none font-bold text-gray-900 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out bg-black">
+                </div>
+                <div class="relative flex-grow w-full">
+                    <input type="email" disabled id="email" value="C++" name="email" class="w-44 bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none font-bold text-gray-900 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out bg-black">
+                </div>
+
+            </div>
+            <div class="flex lg:w-2/3 w-full sm:flex-row flex-col mx-auto px-8 sm:space-x-4 sm:space-y-0 space-y-4 sm:px-0 items-end mt-4">
+                <div class="relative flex-grow w-full">
+                    <input type="text" disabled id="full-name" value="PYTHON" name="full-name" class="w-44 bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base font-bold outline-none text-gray-900 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out bg-black">
+                </div>
+                <div class="relative flex-grow w-full">
+                    <input type="email" disabled id="email" value="DJANGO" name="email" class="w-44 bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none  font-bold text-gray-900 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out bg-black">
+                </div>
+                <div class="relative flex-grow w-full">
+                    <input type="email" disabled id="email" value="GIT & GITHUB" name="email" class="w-44 bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none font-bold text-gray-900 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out bg-black">
+                </div>
+
+            </div>
+        </div>
+    </section>
 
 
-			<div class="container px-5 py-24 mx-auto">
-			  <div class="flex flex-wrap -mx-4 -mb-10 text-center">
-				<div class="sm:w-1/2 mb-10 px-4">
-				  <div class="rounded-lg h-64 overflow-hidden">
-					<img alt="content" class="object-cover object-center h-full w-full" src="https://www.kindpng.com/picc/m/609-6095005_bank-clipart-hd-png-download.png">
-				  </div>
-				  <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Banking Web Application</h2>
-				  <p class="leading-relaxed text-base">A simple Web Application used to transfer money between multiple users.after transfer the amount will display the history.</p>
-				  <button class="flex mx-auto mt-6 text-white bg-indigo-800 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded"><a href="https://github.com/sainisachin602060/Banking-Web-Application">Github</a></button>
-				</div>
-				<div class="sm:w-1/2 mb-10 px-4">
-				  <div class="rounded-lg h-64 overflow-hidden">
-					<img alt="content" class="object-cover object-center h-full w-full" src="https://blog.testproject.io/wp-content/uploads/2020/07/Creating-Appium-Tests-with-TestProject-Python-SDK.jpg">
-				  </div>
-				  <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">PhoneBook Application</h2>
-				  <p class="leading-relaxed text-base">PhoneBook Application which is used to give some  feacture like as save contact edit an contact delete and contact etc.it is console based appliocation.this application made in python</p>
-				  <button class="flex mx-auto mt-6 text-white bg-indigo-800 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded"><a href="https://github.com/sainisachin602060/PhoneBook-Appication">Github</a></button>
-				</div>
-				<div class="sm:w-1/2 mb-10 px-4">
-				  <div class="rounded-lg h-64 overflow-hidden">
-					<img alt="content" class="object-cover object-center h-full w-full" src="https://wallpapercave.com/wp/wp1874155.jpg">
-				  </div>
-				  <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Restourent Landing page</h2>
-				  <p class="leading-relaxed text-base">A landing page of restourent which contain some image link which make it more beautifull.</p>
-				  <button class="flex mx-auto mt-6 text-white bg-indigo-800 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded"><a href="https://github.com/sainisachin602060/Restourrent-Landing-Page">Github</a></button>
-				</div>
-				<div class="sm:w-1/2 mb-10 px-4">
-				  <div class="rounded-lg h-64 overflow-hidden">
-					<img alt="content" class="object-cover object-center h-full w-full" src="https://tradebrains.in/wp-content/uploads/2017/03/Stock-Portfolio-for-Beginners-How-to-Create-Your-Stock-Portfolio.jpg">
-				  </div>
-				  <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Portfolio and quotes Application</h2>
-				  <p class="leading-relaxed text-base">A dyanmic portfolio and quotes genrator application using django web framework .this application genrate a quote daily basis.</p>
-				  <button class="flex mx-auto mt-6 text-white bg-indigo-800 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded"><a href="https://github.com/sainisachin602060/Portfolio-and-quote-application">Gihub</a></button>
-				</div>
-			  </div>
-			</div>
-		  </section>
+
+    <!------project section ------>
+
+    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-600 text-center mt-16 font-bold" id="project">MY PROJECTS</h1>
+    <section class="text-gray-600 body-font">
 
 
-  <!-------ABOUT SECTION ---------->
-   <section class="text-gray-600 body-font " id="about-us">
-			<div class="container px-5 py-24 mx-auto flex flex-col">
-			  <div class="lg:w-4/6 mx-auto">
-				
-				<div class="flex flex-col sm:flex-row mt-10">
-				  <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
-					<div class="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
-					  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-wrap -mx-4 -mb-10 text-center">
+                <div class="sm:w-1/2 mb-10 px-4">
+                    <div class="rounded-lg h-64 overflow-hidden">
+                        <img alt="content" class="object-cover object-center h-full w-full" src="https://www.kindpng.com/picc/m/609-6095005_bank-clipart-hd-png-download.png">
+                    </div>
+                    <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Banking Web Application</h2>
+                    <p class="leading-relaxed text-base">A simple Web Application used to transfer money between multiple users.after transfer the amount will display the history.</p>
+                    <button class="flex mx-auto mt-6 text-white bg-indigo-800 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded"><a href="https://github.com/sainisachin602060/Banking-Web-Application">Github</a></button>
+                </div>
+                <div class="sm:w-1/2 mb-10 px-4">
+                    <div class="rounded-lg h-64 overflow-hidden">
+                        <img alt="content" class="object-cover object-center h-full w-full" src="https://blog.testproject.io/wp-content/uploads/2020/07/Creating-Appium-Tests-with-TestProject-Python-SDK.jpg">
+                    </div>
+                    <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">PhoneBook Application</h2>
+                    <p class="leading-relaxed text-base">PhoneBook Application which is used to give some feacture like as save contact edit an contact delete and contact etc.it is console based appliocation.this application made in python</p>
+                    <button class="flex mx-auto mt-6 text-white bg-indigo-800 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded"><a href="https://github.com/sainisachin602060/PhoneBook-Appication">Github</a></button>
+                </div>
+                <div class="sm:w-1/2 mb-10 px-4">
+                    <div class="rounded-lg h-64 overflow-hidden">
+                        <img alt="content" class="object-cover object-center h-full w-full" src="https://wallpapercave.com/wp/wp1874155.jpg">
+                    </div>
+                    <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Restourent Landing page</h2>
+                    <p class="leading-relaxed text-base">A landing page of restourent which contain some image link which make it more beautifull.</p>
+                    <button class="flex mx-auto mt-6 text-white bg-indigo-800 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded"><a href="https://github.com/sainisachin602060/Restourrent-Landing-Page">Github</a></button>
+                </div>
+                <div class="sm:w-1/2 mb-10 px-4">
+                    <div class="rounded-lg h-64 overflow-hidden">
+                        <img alt="content" class="object-cover object-center h-full w-full" src="https://tradebrains.in/wp-content/uploads/2017/03/Stock-Portfolio-for-Beginners-How-to-Create-Your-Stock-Portfolio.jpg">
+                    </div>
+                    <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Portfolio and quotes Application</h2>
+                    <p class="leading-relaxed text-base">A dyanmic portfolio and quotes genrator application using django web framework .this application genrate a quote daily basis.</p>
+                    <button class="flex mx-auto mt-6 text-white bg-indigo-800 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded"><a href="https://github.com/sainisachin602060/Portfolio-and-quote-application">Gihub</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-------ABOUT SECTION ---------->
+    <section class="text-gray-600 body-font " id="about-us">
+        <div class="container px-5 py-24 mx-auto flex flex-col">
+            <div class="lg:w-4/6 mx-auto">
+
+                <div class="flex flex-col sm:flex-row mt-10">
+                    <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
+                        <div class="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
 						<path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
 						<circle cx="12" cy="7" r="4"></circle>
 					  </svg>
-					</div>
-					<div class="flex flex-col items-center text-center justify-center">
-					  <h2 class="font-bold title-font mt-4 text-gray-900 text-lg ">SACHIN SAINI</h2>
-					  <div class="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
-					</div>
-				  </div>
-				  <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
-					<p class="leading-relaxed text-lg mb-4 text-gray-800 font-medium">Hi ,Everyone i am sachin from Roorkee Haridwar Uttrakhand.i am student of MCA master of computer application in first year student at quantum university.i am passionate about coding and learn technology. i want to be a good web Developver.i am currently learning django web framework which is most powerfull framework for creating dyanmic web application.<br><br>Thanks to all   </p>
-					
-					 
-					</a>
-				  </div>
-				</div>
-			  </div>
-			</div>
-			
-		  </section>
-		  <h2 class="text-center font-bold text-gray-700 mb-16 text-2xl">Contact</h2>
-		  <div class="lg:w-1/2 px-6" id="contact">
-			<h2 class=" text-gray-900 tracking-widest text-xs font-bold">ADDRESS</h2>
-			<p class="mt-1">Roorkee Uttrakhand 247667 </p>
-		  </div>
-		  <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
-			<h2 class=" text-gray-900 tracking-widest text-xs font-bold mt-4">EMAIL</h2>
-			<a class="text-indigo-800 leading-relaxed">sainisachin206020@gmail.com</a>
-			<h2 class="text-gray-900 tracking-widest text-xs font-bold mt-4">PHONE</h2>
-			<p class="leading-relaxed">+91 8393919669</p>
-			<h1 class="text-gray-900 tracking-widest text-xs font-bold mt-4">Social media</h1>
-	
-			 <a href="https://www.linkedin.com/in/sachin-saini-652a02232/"><i class="fa fa-linkedin" id="linkedin"></i></href>
+                        </div>
+                        <div class="flex flex-col items-center text-center justify-center">
+                            <h2 class="font-bold title-font mt-4 text-gray-900 text-lg ">SACHIN SAINI</h2>
+                            <div class="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
+                        </div>
+                    </div>
+                    <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
+                        <p class="leading-relaxed text-lg mb-4 text-gray-800 font-medium">Hi ,Everyone i am sachin from Roorkee Haridwar Uttrakhand.i am student of MCA master of computer application in first year student at quantum university.i am passionate about coding and learn technology. i want to be a good web
+                            Developver.i am currently learning django web framework which is most powerfull framework for creating dyanmic web application.<br><br>Thanks to all </p>
+
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <h2 class="text-center font-bold text-gray-700 mb-16 text-2xl">Contact</h2>
+    <div class="lg:w-1/2 px-6" id="contact">
+        <h2 class=" text-gray-900 tracking-widest text-xs font-bold">ADDRESS</h2>
+        <p class="mt-1">Roorkee Uttrakhand 247667 </p>
+    </div>
+    <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
+        <h2 class=" text-gray-900 tracking-widest text-xs font-bold mt-4">EMAIL</h2>
+        <a class="text-indigo-800 leading-relaxed">sainisachin206020@gmail.com</a>
+        <h2 class="text-gray-900 tracking-widest text-xs font-bold mt-4">PHONE</h2>
+        <p class="leading-relaxed">+91 8393919669</p>
+        <h1 class="text-gray-900 tracking-widest text-xs font-bold mt-4">Social media</h1>
+
+        <a href="https://www.linkedin.com/in/sachin-saini-652a02232/"><i class="fa fa-linkedin" id="linkedin"></i></href>
 		  </div>
 
 
